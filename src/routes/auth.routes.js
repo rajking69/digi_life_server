@@ -35,7 +35,8 @@ router.post("/jwt/sign", async (req, res) => {
 
         res.status(200).json({ success: true, message: "JWT generated successfully" });
     } catch (error) {
-        res.status(500).json({ success: false, message: "Failed to generate JWT" });
+        console.error("JWT Sign error:", error);
+        res.status(500).json({ success: false, message: "Failed to generate JWT", error: error.message });
     }
 });
 
@@ -55,7 +56,8 @@ router.all("/*path", async (req, res, next) => {
         const { toNodeHandler } = await import("better-auth/node");
         return toNodeHandler(auth)(req, res);
     } catch (error) {
-        next(error);
+        console.error("Better Auth route error:", error);
+        res.status(500).json({ success: false, message: "Better Auth route failure", error: error.message });
     }
 });
 
