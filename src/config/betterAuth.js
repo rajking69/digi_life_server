@@ -26,9 +26,11 @@ const getAuth = async () => {
                     }
                 } : {})
             },
-            cookie: {
-                secure: process.env.NODE_ENV === "production",
-                sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
+            advanced: {
+                cookie: {
+                    secure: process.env.NODE_ENV === "production",
+                    sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
+                }
             },
             databaseHooks: {
                 user: {
