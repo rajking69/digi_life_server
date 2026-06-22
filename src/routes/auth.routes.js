@@ -1,5 +1,5 @@
 const express = require("express");
-const { auth } = require("../config/betterAuth");
+const { getAuth } = require("../config/betterAuth");
 
 const jwt = require("jsonwebtoken");
 const client = require("../config/mongodb");
@@ -8,6 +8,7 @@ const router = express.Router();
 
 router.post("/jwt/sign", async (req, res) => {
     try {
+        const auth = await getAuth();
         const session = await auth.api.getSession({ headers: req.headers });
         if (!session || !session.user) {
             return res.status(401).json({ success: false, message: "Unauthorized. No valid Better Auth session." });
@@ -50,6 +51,7 @@ router.post("/jwt/clear", (req, res) => {
 
 router.all("/*path", async (req, res, next) => {
     try {
+        const auth = await getAuth();
         const { toNodeHandler } = await import("better-auth/node");
         return toNodeHandler(auth)(req, res);
     } catch (error) {
