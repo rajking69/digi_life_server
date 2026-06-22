@@ -1,0 +1,162 @@
+[
+  {
+    "_id": {
+      "$oid": "897f6e06675255f1f0827f64"
+    },
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "photoURL": "https://i.pravatar.cc/150?u=0",
+    "role": "admin",
+    "isPremium": true,
+    "createdAt": {
+      "$date": "2026-01-01T22:22:41.122Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a4d37ba34d2441a51f38ea39"
+    },
+    "name": "Bob Jones",
+    "email": "bob@example.com",
+    "photoURL": "https://i.pravatar.cc/150?u=1",
+    "role": "user",
+    "isPremium": true,
+    "createdAt": {
+      "$date": "2026-01-06T06:20:40.580Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "44aa26df3fc82c5e856fafbf"
+    },
+    "name": "Charlie Brown",
+    "email": "charlie@example.com",
+    "photoURL": "https://i.pravatar.cc/150?u=2",
+    "role": "user",
+    "isPremium": false,
+    "createdAt": {
+      "$date": "2026-01-02T14:08:43.585Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2308f74e08deb913361a5c60"
+    },
+    "name": "Diana Prince",
+    "email": "diana@example.com",
+    "photoURL": "https://i.pravatar.cc/150?u=3",
+    "role": "user",
+    "isPremium": false,
+    "createdAt": {
+      "$date": "2025-11-29T10:37:40.085Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a0e5fd6a1d72013491618b01"
+    },
+    "name": "Ethan Hunt",
+    "email": "ethan@example.com",
+    "photoURL": "https://i.pravatar.cc/150?u=4",
+    "role": "user",
+    "isPremium": true,
+    "createdAt": {
+      "$date": "2026-01-14T01:06:08.002Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a80ce27383847da047059a19"
+    },
+    "name": "Fiona Gallagher",
+    "email": "fiona@example.com",
+    "photoURL": "https://i.pravatar.cc/150?u=5",
+    "role": "user",
+    "isPremium": true,
+    "createdAt": {
+      "$date": "2026-01-17T03:57:14.301Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "887bbac502bae0e2724597f7"
+    },
+    "name": "George Costanza",
+    "email": "george@example.com",
+    "photoURL": "https://i.pravatar.cc/150?u=6",
+    "role": "user",
+    "isPremium": true,
+    "createdAt": {
+      "$date": "2026-02-10T13:10:29.373Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b6eb2012712fd5fa8d1c1636"
+    },
+    "name": "Hannah Abbott",
+    "email": "hannah@example.com",
+    "photoURL": "https://i.pravatar.cc/150?u=7",
+    "role": "user",
+    "isPremium": true,
+    "createdAt": {
+      "$date": "2026-01-24T14:26:21.641Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "51db42f75bd9188e4d9749af"
+    },
+    "name": "Ian Malcolm",
+    "email": "ian@example.com",
+    "photoURL": "https://i.pravatar.cc/150?u=8",
+    "role": "user",
+    "isPremium": true,
+    "createdAt": {
+      "$date": "2026-02-16T11:51:39.881Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "57d569a245356cd79ef6363f"
+    },
+    "name": "Jane Doe",
+    "email": "jane@example.com",
+    "photoURL": "https://i.pravatar.cc/150?u=9",
+    "role": "user",
+    "isPremium": false,
+    "createdAt": {
+      "$date": "2025-11-15T23:52:17.847Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  }
+]

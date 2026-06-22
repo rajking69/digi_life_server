@@ -1,0 +1,162 @@
+[
+  {
+    "_id": {
+      "$oid": "ad1508e90f6762fc88b5ab60"
+    },
+    "lessonId": {
+      "$oid": "2859c91560068b04d8d3d9b7"
+    },
+    "reporterUserId": {
+      "$oid": "57d569a245356cd79ef6363f"
+    },
+    "reporterEmail": "jane@example.com",
+    "reason": "Spam",
+    "timestamp": {
+      "$date": "2026-06-17T18:42:51.243Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "de269b46391b4f0f31c44cd4"
+    },
+    "lessonId": {
+      "$oid": "5928c1300672c2dfd72a4fed"
+    },
+    "reporterUserId": {
+      "$oid": "a80ce27383847da047059a19"
+    },
+    "reporterEmail": "fiona@example.com",
+    "reason": "Inappropriate content",
+    "timestamp": {
+      "$date": "2026-06-19T11:21:00.173Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e8c34e71eb14db77b235c220"
+    },
+    "lessonId": {
+      "$oid": "3b97a3d4a82f635e50c5baba"
+    },
+    "reporterUserId": {
+      "$oid": "57d569a245356cd79ef6363f"
+    },
+    "reporterEmail": "jane@example.com",
+    "reason": "Spam",
+    "timestamp": {
+      "$date": "2026-06-15T17:21:47.458Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7990b18c8bdaaf570aa09afb"
+    },
+    "lessonId": {
+      "$oid": "9905cc1ed9efc9e0ab362a62"
+    },
+    "reporterUserId": {
+      "$oid": "51db42f75bd9188e4d9749af"
+    },
+    "reporterEmail": "ian@example.com",
+    "reason": "Plagiarism",
+    "timestamp": {
+      "$date": "2026-06-09T07:03:28.401Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "33c8e5c916ecf7c33125d3d6"
+    },
+    "lessonId": {
+      "$oid": "2c86a81525a29da7759e8ed0"
+    },
+    "reporterUserId": {
+      "$oid": "44aa26df3fc82c5e856fafbf"
+    },
+    "reporterEmail": "charlie@example.com",
+    "reason": "Other",
+    "timestamp": {
+      "$date": "2026-06-11T06:59:32.509Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "06dec93593eeead893fc5d1e"
+    },
+    "lessonId": {
+      "$oid": "3b97a3d4a82f635e50c5baba"
+    },
+    "reporterUserId": {
+      "$oid": "a4d37ba34d2441a51f38ea39"
+    },
+    "reporterEmail": "bob@example.com",
+    "reason": "Inappropriate content",
+    "timestamp": {
+      "$date": "2026-06-11T11:10:37.180Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9bf495837b4b09174156215d"
+    },
+    "lessonId": {
+      "$oid": "3b97a3d4a82f635e50c5baba"
+    },
+    "reporterUserId": {
+      "$oid": "887bbac502bae0e2724597f7"
+    },
+    "reporterEmail": "george@example.com",
+    "reason": "Spam",
+    "timestamp": {
+      "$date": "2026-06-17T17:08:45.174Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4cb3c71688ba21ddb9f85c0c"
+    },
+    "lessonId": {
+      "$oid": "4032d812f3049cf1e0e1ee81"
+    },
+    "reporterUserId": {
+      "$oid": "44aa26df3fc82c5e856fafbf"
+    },
+    "reporterEmail": "charlie@example.com",
+    "reason": "Spam",
+    "timestamp": {
+      "$date": "2026-06-09T23:51:24.301Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "697d92962177c822d974f974"
+    },
+    "lessonId": {
+      "$oid": "8f793cdc089490e3b847a856"
+    },
+    "reporterUserId": {
+      "$oid": "a0e5fd6a1d72013491618b01"
+    },
+    "reporterEmail": "ethan@example.com",
+    "reason": "Other",
+    "timestamp": {
+      "$date": "2026-06-09T00:51:55.680Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2b6e59eace6b3119c548b19d"
+    },
+    "lessonId": {
+      "$oid": "ee97cb57bd521940169e0cb1"
+    },
+    "reporterUserId": {
+      "$oid": "a80ce27383847da047059a19"
+    },
+    "reporterEmail": "fiona@example.com",
+    "reason": "Inappropriate content",
+    "timestamp": {
+      "$date": "2026-06-11T21:23:40.562Z"
+    }
+  }
+]

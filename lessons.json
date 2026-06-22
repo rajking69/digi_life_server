@@ -1,0 +1,1123 @@
+[
+  {
+    "_id": {
+      "$oid": "8bf8cc030afb9883ad788d81"
+    },
+    "title": "Mastering Health Part 1",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 1 of our series. It covers essential strategies that will help you grow.",
+    "category": "Health",
+    "emotionalTone": "Motivational",
+    "visibility": "public",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/100/800/600",
+    "creatorId": {
+      "$oid": "a4d37ba34d2441a51f38ea39"
+    },
+    "creatorName": "Bob Jones",
+    "creatorEmail": "bob@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=1",
+    "likes": [
+      {
+        "$oid": "57d569a245356cd79ef6363f"
+      },
+      {
+        "$oid": "887bbac502bae0e2724597f7"
+      },
+      {
+        "$oid": "a80ce27383847da047059a19"
+      }
+    ],
+    "likesCount": 3,
+    "favoritesCount": 1,
+    "commentsCount": 0,
+    "isFeatured": true,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-03-21T04:45:32.696Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4032d812f3049cf1e0e1ee81"
+    },
+    "title": "Mastering Relationships Part 2",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 2 of our series. It covers essential strategies that will help you grow.",
+    "category": "Business",
+    "emotionalTone": "Serious",
+    "visibility": "public",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/101/800/600",
+    "creatorId": {
+      "$oid": "897f6e06675255f1f0827f64"
+    },
+    "creatorName": "Alice Smith",
+    "creatorEmail": "alice@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=0",
+    "likes": [],
+    "likesCount": 0,
+    "favoritesCount": 0,
+    "commentsCount": 2,
+    "isFeatured": true,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-03-22T12:32:48.704Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1dc92f099a1607c64e8a983b"
+    },
+    "title": "Mastering Stress Part 3",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 3 of our series. It covers essential strategies that will help you grow.",
+    "category": "Business",
+    "emotionalTone": "Humorous",
+    "visibility": "private",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/102/800/600",
+    "creatorId": {
+      "$oid": "897f6e06675255f1f0827f64"
+    },
+    "creatorName": "Alice Smith",
+    "creatorEmail": "alice@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=0",
+    "likes": [
+      {
+        "$oid": "897f6e06675255f1f0827f64"
+      }
+    ],
+    "likesCount": 1,
+    "favoritesCount": 0,
+    "commentsCount": 4,
+    "isFeatured": false,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-04-12T17:26:00.202Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c47b3712b1949a7b17bbce24"
+    },
+    "title": "Mastering Stress Part 4",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 4 of our series. It covers essential strategies that will help you grow.",
+    "category": "Technology",
+    "emotionalTone": "Motivational",
+    "visibility": "private",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/103/800/600",
+    "creatorId": {
+      "$oid": "57d569a245356cd79ef6363f"
+    },
+    "creatorName": "Jane Doe",
+    "creatorEmail": "jane@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=9",
+    "likes": [
+      {
+        "$oid": "57d569a245356cd79ef6363f"
+      },
+      {
+        "$oid": "44aa26df3fc82c5e856fafbf"
+      }
+    ],
+    "likesCount": 2,
+    "favoritesCount": 1,
+    "commentsCount": 2,
+    "isFeatured": true,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-04-07T18:48:17.258Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b5af4e2c7433916155c3b5fe"
+    },
+    "title": "Mastering Code Part 5",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 5 of our series. It covers essential strategies that will help you grow.",
+    "category": "Lifestyle",
+    "emotionalTone": "Informative",
+    "visibility": "private",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/104/800/600",
+    "creatorId": {
+      "$oid": "b6eb2012712fd5fa8d1c1636"
+    },
+    "creatorName": "Hannah Abbott",
+    "creatorEmail": "hannah@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=7",
+    "likes": [
+      {
+        "$oid": "51db42f75bd9188e4d9749af"
+      },
+      {
+        "$oid": "a0e5fd6a1d72013491618b01"
+      }
+    ],
+    "likesCount": 2,
+    "favoritesCount": 1,
+    "commentsCount": 1,
+    "isFeatured": true,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-03-05T06:05:04.483Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5bf6a849ebd89f07e1cead28"
+    },
+    "title": "Mastering Health Part 6",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 6 of our series. It covers essential strategies that will help you grow.",
+    "category": "Health",
+    "emotionalTone": "Informative",
+    "visibility": "private",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/105/800/600",
+    "creatorId": {
+      "$oid": "a4d37ba34d2441a51f38ea39"
+    },
+    "creatorName": "Bob Jones",
+    "creatorEmail": "bob@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=1",
+    "likes": [],
+    "likesCount": 0,
+    "favoritesCount": 2,
+    "commentsCount": 1,
+    "isFeatured": true,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-04-16T16:02:36.878Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2c86a81525a29da7759e8ed0"
+    },
+    "title": "Mastering Mindfulness Part 7",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 7 of our series. It covers essential strategies that will help you grow.",
+    "category": "Health",
+    "emotionalTone": "Humorous",
+    "visibility": "public",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/106/800/600",
+    "creatorId": {
+      "$oid": "b6eb2012712fd5fa8d1c1636"
+    },
+    "creatorName": "Hannah Abbott",
+    "creatorEmail": "hannah@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=7",
+    "likes": [
+      {
+        "$oid": "44aa26df3fc82c5e856fafbf"
+      },
+      {
+        "$oid": "2308f74e08deb913361a5c60"
+      },
+      {
+        "$oid": "a80ce27383847da047059a19"
+      }
+    ],
+    "likesCount": 3,
+    "favoritesCount": 2,
+    "commentsCount": 1,
+    "isFeatured": true,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-03-09T15:28:09.212Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3d1ad666d0b1eb041754e17c"
+    },
+    "title": "Mastering Stress Part 8",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 8 of our series. It covers essential strategies that will help you grow.",
+    "category": "Business",
+    "emotionalTone": "Humorous",
+    "visibility": "public",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/107/800/600",
+    "creatorId": {
+      "$oid": "2308f74e08deb913361a5c60"
+    },
+    "creatorName": "Diana Prince",
+    "creatorEmail": "diana@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=3",
+    "likes": [],
+    "likesCount": 0,
+    "favoritesCount": 1,
+    "commentsCount": 2,
+    "isFeatured": false,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-03-10T03:13:11.901Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a725dd2d0c81fc3ffc7b5d85"
+    },
+    "title": "Mastering Mindfulness Part 9",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 9 of our series. It covers essential strategies that will help you grow.",
+    "category": "Education",
+    "emotionalTone": "Motivational",
+    "visibility": "public",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/108/800/600",
+    "creatorId": {
+      "$oid": "b6eb2012712fd5fa8d1c1636"
+    },
+    "creatorName": "Hannah Abbott",
+    "creatorEmail": "hannah@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=7",
+    "likes": [
+      {
+        "$oid": "a80ce27383847da047059a19"
+      },
+      {
+        "$oid": "887bbac502bae0e2724597f7"
+      },
+      {
+        "$oid": "a4d37ba34d2441a51f38ea39"
+      },
+      {
+        "$oid": "44aa26df3fc82c5e856fafbf"
+      }
+    ],
+    "likesCount": 4,
+    "favoritesCount": 0,
+    "commentsCount": 0,
+    "isFeatured": true,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-03-25T21:07:59.358Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "018b17559e4603eac71af02b"
+    },
+    "title": "Mastering Productivity Part 10",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 10 of our series. It covers essential strategies that will help you grow.",
+    "category": "Technology",
+    "emotionalTone": "Inspirational",
+    "visibility": "private",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/109/800/600",
+    "creatorId": {
+      "$oid": "57d569a245356cd79ef6363f"
+    },
+    "creatorName": "Jane Doe",
+    "creatorEmail": "jane@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=9",
+    "likes": [
+      {
+        "$oid": "a0e5fd6a1d72013491618b01"
+      },
+      {
+        "$oid": "897f6e06675255f1f0827f64"
+      },
+      {
+        "$oid": "44aa26df3fc82c5e856fafbf"
+      },
+      {
+        "$oid": "57d569a245356cd79ef6363f"
+      }
+    ],
+    "likesCount": 4,
+    "favoritesCount": 0,
+    "commentsCount": 2,
+    "isFeatured": false,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-03-22T07:38:26.198Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9f276328bf468cfe5c8eced5"
+    },
+    "title": "Mastering Health Part 11",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 11 of our series. It covers essential strategies that will help you grow.",
+    "category": "Technology",
+    "emotionalTone": "Serious",
+    "visibility": "private",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/110/800/600",
+    "creatorId": {
+      "$oid": "a4d37ba34d2441a51f38ea39"
+    },
+    "creatorName": "Bob Jones",
+    "creatorEmail": "bob@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=1",
+    "likes": [
+      {
+        "$oid": "897f6e06675255f1f0827f64"
+      },
+      {
+        "$oid": "a4d37ba34d2441a51f38ea39"
+      },
+      {
+        "$oid": "2308f74e08deb913361a5c60"
+      },
+      {
+        "$oid": "44aa26df3fc82c5e856fafbf"
+      }
+    ],
+    "likesCount": 4,
+    "favoritesCount": 2,
+    "commentsCount": 3,
+    "isFeatured": false,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-03-19T23:54:12.433Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8f793cdc089490e3b847a856"
+    },
+    "title": "Mastering Life Part 12",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 12 of our series. It covers essential strategies that will help you grow.",
+    "category": "Business",
+    "emotionalTone": "Serious",
+    "visibility": "private",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/111/800/600",
+    "creatorId": {
+      "$oid": "57d569a245356cd79ef6363f"
+    },
+    "creatorName": "Jane Doe",
+    "creatorEmail": "jane@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=9",
+    "likes": [
+      {
+        "$oid": "44aa26df3fc82c5e856fafbf"
+      },
+      {
+        "$oid": "2308f74e08deb913361a5c60"
+      },
+      {
+        "$oid": "897f6e06675255f1f0827f64"
+      }
+    ],
+    "likesCount": 3,
+    "favoritesCount": 1,
+    "commentsCount": 1,
+    "isFeatured": true,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-03-12T15:59:06.053Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2859c91560068b04d8d3d9b7"
+    },
+    "title": "Mastering Code Part 13",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 13 of our series. It covers essential strategies that will help you grow.",
+    "category": "Lifestyle",
+    "emotionalTone": "Humorous",
+    "visibility": "private",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/112/800/600",
+    "creatorId": {
+      "$oid": "a4d37ba34d2441a51f38ea39"
+    },
+    "creatorName": "Bob Jones",
+    "creatorEmail": "bob@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=1",
+    "likes": [
+      {
+        "$oid": "b6eb2012712fd5fa8d1c1636"
+      },
+      {
+        "$oid": "897f6e06675255f1f0827f64"
+      }
+    ],
+    "likesCount": 2,
+    "favoritesCount": 1,
+    "commentsCount": 4,
+    "isFeatured": true,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-04-03T00:03:22.305Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3b97a3d4a82f635e50c5baba"
+    },
+    "title": "Mastering Mindfulness Part 14",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 14 of our series. It covers essential strategies that will help you grow.",
+    "category": "Technology",
+    "emotionalTone": "Informative",
+    "visibility": "private",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/113/800/600",
+    "creatorId": {
+      "$oid": "a0e5fd6a1d72013491618b01"
+    },
+    "creatorName": "Ethan Hunt",
+    "creatorEmail": "ethan@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=4",
+    "likes": [
+      {
+        "$oid": "a4d37ba34d2441a51f38ea39"
+      },
+      {
+        "$oid": "b6eb2012712fd5fa8d1c1636"
+      }
+    ],
+    "likesCount": 2,
+    "favoritesCount": 0,
+    "commentsCount": 2,
+    "isFeatured": true,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-03-16T01:23:29.355Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "111c06173f2e172c44292fd6"
+    },
+    "title": "Mastering Mindfulness Part 15",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 15 of our series. It covers essential strategies that will help you grow.",
+    "category": "Health",
+    "emotionalTone": "Informative",
+    "visibility": "private",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/114/800/600",
+    "creatorId": {
+      "$oid": "b6eb2012712fd5fa8d1c1636"
+    },
+    "creatorName": "Hannah Abbott",
+    "creatorEmail": "hannah@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=7",
+    "likes": [
+      {
+        "$oid": "a4d37ba34d2441a51f38ea39"
+      },
+      {
+        "$oid": "51db42f75bd9188e4d9749af"
+      }
+    ],
+    "likesCount": 2,
+    "favoritesCount": 1,
+    "commentsCount": 0,
+    "isFeatured": false,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-04-09T10:54:56.659Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "925c7c6d0709f6a688b07d25"
+    },
+    "title": "Mastering Productivity Part 16",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 16 of our series. It covers essential strategies that will help you grow.",
+    "category": "Health",
+    "emotionalTone": "Informative",
+    "visibility": "private",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/115/800/600",
+    "creatorId": {
+      "$oid": "887bbac502bae0e2724597f7"
+    },
+    "creatorName": "George Costanza",
+    "creatorEmail": "george@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=6",
+    "likes": [
+      {
+        "$oid": "a0e5fd6a1d72013491618b01"
+      },
+      {
+        "$oid": "a80ce27383847da047059a19"
+      },
+      {
+        "$oid": "a4d37ba34d2441a51f38ea39"
+      },
+      {
+        "$oid": "2308f74e08deb913361a5c60"
+      }
+    ],
+    "likesCount": 4,
+    "favoritesCount": 0,
+    "commentsCount": 2,
+    "isFeatured": true,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-04-18T17:54:19.898Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dc2c893037dae367551af6f6"
+    },
+    "title": "Mastering Relationships Part 17",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 17 of our series. It covers essential strategies that will help you grow.",
+    "category": "Lifestyle",
+    "emotionalTone": "Inspirational",
+    "visibility": "public",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/116/800/600",
+    "creatorId": {
+      "$oid": "44aa26df3fc82c5e856fafbf"
+    },
+    "creatorName": "Charlie Brown",
+    "creatorEmail": "charlie@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=2",
+    "likes": [],
+    "likesCount": 0,
+    "favoritesCount": 0,
+    "commentsCount": 0,
+    "isFeatured": false,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-03-27T00:08:43.458Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ec417b1420e6a3e24495c87d"
+    },
+    "title": "Mastering Relationships Part 18",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 18 of our series. It covers essential strategies that will help you grow.",
+    "category": "Lifestyle",
+    "emotionalTone": "Humorous",
+    "visibility": "private",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/117/800/600",
+    "creatorId": {
+      "$oid": "a0e5fd6a1d72013491618b01"
+    },
+    "creatorName": "Ethan Hunt",
+    "creatorEmail": "ethan@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=4",
+    "likes": [
+      {
+        "$oid": "57d569a245356cd79ef6363f"
+      },
+      {
+        "$oid": "a4d37ba34d2441a51f38ea39"
+      }
+    ],
+    "likesCount": 2,
+    "favoritesCount": 2,
+    "commentsCount": 0,
+    "isFeatured": false,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-02-28T14:08:49.974Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "18b9e89e8a929231abb86e9c"
+    },
+    "title": "Mastering Relationships Part 19",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 19 of our series. It covers essential strategies that will help you grow.",
+    "category": "Health",
+    "emotionalTone": "Informative",
+    "visibility": "public",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/118/800/600",
+    "creatorId": {
+      "$oid": "b6eb2012712fd5fa8d1c1636"
+    },
+    "creatorName": "Hannah Abbott",
+    "creatorEmail": "hannah@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=7",
+    "likes": [
+      {
+        "$oid": "887bbac502bae0e2724597f7"
+      },
+      {
+        "$oid": "57d569a245356cd79ef6363f"
+      },
+      {
+        "$oid": "2308f74e08deb913361a5c60"
+      }
+    ],
+    "likesCount": 3,
+    "favoritesCount": 0,
+    "commentsCount": 2,
+    "isFeatured": false,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-03-23T02:11:09.297Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fae0bad4a253a74e601d632a"
+    },
+    "title": "Mastering Finances Part 20",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 20 of our series. It covers essential strategies that will help you grow.",
+    "category": "Education",
+    "emotionalTone": "Informative",
+    "visibility": "private",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/119/800/600",
+    "creatorId": {
+      "$oid": "a80ce27383847da047059a19"
+    },
+    "creatorName": "Fiona Gallagher",
+    "creatorEmail": "fiona@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=5",
+    "likes": [
+      {
+        "$oid": "2308f74e08deb913361a5c60"
+      },
+      {
+        "$oid": "a80ce27383847da047059a19"
+      },
+      {
+        "$oid": "887bbac502bae0e2724597f7"
+      },
+      {
+        "$oid": "a4d37ba34d2441a51f38ea39"
+      },
+      {
+        "$oid": "57d569a245356cd79ef6363f"
+      }
+    ],
+    "likesCount": 5,
+    "favoritesCount": 2,
+    "commentsCount": 0,
+    "isFeatured": true,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-03-10T12:14:41.664Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "03b0dd503ace914de6fb1387"
+    },
+    "title": "Mastering Finances Part 21",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 21 of our series. It covers essential strategies that will help you grow.",
+    "category": "Technology",
+    "emotionalTone": "Motivational",
+    "visibility": "private",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/120/800/600",
+    "creatorId": {
+      "$oid": "887bbac502bae0e2724597f7"
+    },
+    "creatorName": "George Costanza",
+    "creatorEmail": "george@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=6",
+    "likes": [],
+    "likesCount": 0,
+    "favoritesCount": 0,
+    "commentsCount": 0,
+    "isFeatured": true,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-04-09T10:12:01.455Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7e63c9750bd4388b27441e01"
+    },
+    "title": "Mastering Code Part 22",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 22 of our series. It covers essential strategies that will help you grow.",
+    "category": "Lifestyle",
+    "emotionalTone": "Inspirational",
+    "visibility": "public",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/121/800/600",
+    "creatorId": {
+      "$oid": "897f6e06675255f1f0827f64"
+    },
+    "creatorName": "Alice Smith",
+    "creatorEmail": "alice@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=0",
+    "likes": [
+      {
+        "$oid": "897f6e06675255f1f0827f64"
+      },
+      {
+        "$oid": "2308f74e08deb913361a5c60"
+      },
+      {
+        "$oid": "51db42f75bd9188e4d9749af"
+      },
+      {
+        "$oid": "b6eb2012712fd5fa8d1c1636"
+      }
+    ],
+    "likesCount": 4,
+    "favoritesCount": 0,
+    "commentsCount": 1,
+    "isFeatured": false,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-03-26T05:32:53.190Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a86d768e2f15a62a44e83c92"
+    },
+    "title": "Mastering Productivity Part 23",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 23 of our series. It covers essential strategies that will help you grow.",
+    "category": "Technology",
+    "emotionalTone": "Motivational",
+    "visibility": "public",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/122/800/600",
+    "creatorId": {
+      "$oid": "897f6e06675255f1f0827f64"
+    },
+    "creatorName": "Alice Smith",
+    "creatorEmail": "alice@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=0",
+    "likes": [
+      {
+        "$oid": "897f6e06675255f1f0827f64"
+      },
+      {
+        "$oid": "a4d37ba34d2441a51f38ea39"
+      },
+      {
+        "$oid": "a80ce27383847da047059a19"
+      }
+    ],
+    "likesCount": 3,
+    "favoritesCount": 0,
+    "commentsCount": 2,
+    "isFeatured": true,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-03-13T12:50:59.558Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9425a4865494bf9f39b57ddd"
+    },
+    "title": "Mastering Finances Part 24",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 24 of our series. It covers essential strategies that will help you grow.",
+    "category": "Education",
+    "emotionalTone": "Serious",
+    "visibility": "public",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/123/800/600",
+    "creatorId": {
+      "$oid": "887bbac502bae0e2724597f7"
+    },
+    "creatorName": "George Costanza",
+    "creatorEmail": "george@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=6",
+    "likes": [
+      {
+        "$oid": "a0e5fd6a1d72013491618b01"
+      },
+      {
+        "$oid": "57d569a245356cd79ef6363f"
+      },
+      {
+        "$oid": "a4d37ba34d2441a51f38ea39"
+      },
+      {
+        "$oid": "b6eb2012712fd5fa8d1c1636"
+      },
+      {
+        "$oid": "a80ce27383847da047059a19"
+      }
+    ],
+    "likesCount": 5,
+    "favoritesCount": 2,
+    "commentsCount": 1,
+    "isFeatured": true,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-03-25T05:53:23.191Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "971cfe0f7da2e3736efbcdef"
+    },
+    "title": "Mastering Mindfulness Part 25",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 25 of our series. It covers essential strategies that will help you grow.",
+    "category": "Education",
+    "emotionalTone": "Inspirational",
+    "visibility": "private",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/124/800/600",
+    "creatorId": {
+      "$oid": "2308f74e08deb913361a5c60"
+    },
+    "creatorName": "Diana Prince",
+    "creatorEmail": "diana@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=3",
+    "likes": [
+      {
+        "$oid": "44aa26df3fc82c5e856fafbf"
+      },
+      {
+        "$oid": "51db42f75bd9188e4d9749af"
+      },
+      {
+        "$oid": "a80ce27383847da047059a19"
+      }
+    ],
+    "likesCount": 3,
+    "favoritesCount": 1,
+    "commentsCount": 0,
+    "isFeatured": true,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-03-28T02:46:38.043Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9ca2625f7e2ee1aad1527810"
+    },
+    "title": "Mastering Code Part 26",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 26 of our series. It covers essential strategies that will help you grow.",
+    "category": "Business",
+    "emotionalTone": "Inspirational",
+    "visibility": "public",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/125/800/600",
+    "creatorId": {
+      "$oid": "44aa26df3fc82c5e856fafbf"
+    },
+    "creatorName": "Charlie Brown",
+    "creatorEmail": "charlie@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=2",
+    "likes": [
+      {
+        "$oid": "b6eb2012712fd5fa8d1c1636"
+      },
+      {
+        "$oid": "a80ce27383847da047059a19"
+      }
+    ],
+    "likesCount": 2,
+    "favoritesCount": 0,
+    "commentsCount": 1,
+    "isFeatured": false,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-02-25T07:41:44.083Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5472fe5ab7387ddc1dfbfc49"
+    },
+    "title": "Mastering Finances Part 27",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 27 of our series. It covers essential strategies that will help you grow.",
+    "category": "Technology",
+    "emotionalTone": "Humorous",
+    "visibility": "private",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/126/800/600",
+    "creatorId": {
+      "$oid": "44aa26df3fc82c5e856fafbf"
+    },
+    "creatorName": "Charlie Brown",
+    "creatorEmail": "charlie@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=2",
+    "likes": [
+      {
+        "$oid": "a0e5fd6a1d72013491618b01"
+      },
+      {
+        "$oid": "2308f74e08deb913361a5c60"
+      }
+    ],
+    "likesCount": 2,
+    "favoritesCount": 1,
+    "commentsCount": 3,
+    "isFeatured": false,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-02-28T02:59:42.436Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ee97cb57bd521940169e0cb1"
+    },
+    "title": "Mastering Finances Part 28",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 28 of our series. It covers essential strategies that will help you grow.",
+    "category": "Business",
+    "emotionalTone": "Motivational",
+    "visibility": "private",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/127/800/600",
+    "creatorId": {
+      "$oid": "44aa26df3fc82c5e856fafbf"
+    },
+    "creatorName": "Charlie Brown",
+    "creatorEmail": "charlie@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=2",
+    "likes": [],
+    "likesCount": 0,
+    "favoritesCount": 3,
+    "commentsCount": 1,
+    "isFeatured": false,
+    "isReviewed": false,
+    "createdAt": {
+      "$date": "2026-04-04T19:38:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5928c1300672c2dfd72a4fed"
+    },
+    "title": "Mastering Relationships Part 29",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 29 of our series. It covers essential strategies that will help you grow.",
+    "category": "Technology",
+    "emotionalTone": "Inspirational",
+    "visibility": "private",
+    "accessLevel": "premium",
+    "image": "https://picsum.photos/seed/128/800/600",
+    "creatorId": {
+      "$oid": "51db42f75bd9188e4d9749af"
+    },
+    "creatorName": "Ian Malcolm",
+    "creatorEmail": "ian@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=8",
+    "likes": [],
+    "likesCount": 0,
+    "favoritesCount": 0,
+    "commentsCount": 0,
+    "isFeatured": true,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-03-01T14:23:13.303Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9905cc1ed9efc9e0ab362a62"
+    },
+    "title": "Mastering Health Part 30",
+    "description": "An in-depth lesson on improving your life skills and knowledge. This is part 30 of our series. It covers essential strategies that will help you grow.",
+    "category": "Education",
+    "emotionalTone": "Serious",
+    "visibility": "public",
+    "accessLevel": "free",
+    "image": "https://picsum.photos/seed/129/800/600",
+    "creatorId": {
+      "$oid": "2308f74e08deb913361a5c60"
+    },
+    "creatorName": "Diana Prince",
+    "creatorEmail": "diana@example.com",
+    "creatorPhoto": "https://i.pravatar.cc/150?u=3",
+    "likes": [
+      {
+        "$oid": "2308f74e08deb913361a5c60"
+      }
+    ],
+    "likesCount": 1,
+    "favoritesCount": 1,
+    "commentsCount": 2,
+    "isFeatured": false,
+    "isReviewed": true,
+    "createdAt": {
+      "$date": "2026-03-26T18:32:55.732Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-19T20:47:32.299Z"
+    }
+  }
+]
