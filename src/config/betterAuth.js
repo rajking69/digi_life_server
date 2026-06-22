@@ -2,6 +2,9 @@ const client = require("./mongodb");
 
 let authInstance = null;
 
+// Detect if running in production (HTTPS) environment
+const isProduction = (process.env.BETTER_AUTH_URL || "").startsWith("https");
+
 const getAuth = async () => {
     if (!authInstance) {
         try {
@@ -29,10 +32,25 @@ const getAuth = async () => {
                     } : {})
                 },
                 advanced: {
-                    cookie: {
-                        secure: process.env.NODE_ENV === "production",
-                        sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
-                    }
+                    // useSecureCookies forces SameSite=None + Secure on all session cookies.
+                    // This is REQUIRED for cross-origin requests between:
+                    //   digi-life-client.vercel.app (frontend) and
+                    //   digi-life-server.vercel.app (backend)
+                    // Without this, Better Auth uses SameSite=Lax by default,
+                    // which blocks cross-origin cookies and breaks the session.
+                    useSecureCookies: isProduction,
+                    // Explicitly set cookie attributes as a belt-and-suspenders approach
+                    defaultCookieAttributes: isProduction ? {
+                        secure: true,
+                        httpOnly: true,
+                        sameSite: "none",
+                        path: "/",
+                    } : {
+                        secure: false,
+                        httpOnly: true,
+                        sameSite: "lax",
+                        path: "/",
+                    },
                 },
                 databaseHooks: {
                     user: {
