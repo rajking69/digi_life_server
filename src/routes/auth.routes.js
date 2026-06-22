@@ -1,5 +1,4 @@
 const express = require("express");
-const { toNodeHandler } = require("better-auth/node");
 const { auth } = require("../config/betterAuth");
 
 const jwt = require("jsonwebtoken");
@@ -49,6 +48,13 @@ router.post("/jwt/clear", (req, res) => {
     res.status(200).json({ success: true, message: "JWT cleared successfully" });
 });
 
-router.all("/*path", toNodeHandler(auth));
+router.all("/*path", async (req, res, next) => {
+    try {
+        const { toNodeHandler } = await import("better-auth/node");
+        return toNodeHandler(auth)(req, res);
+    } catch (error) {
+        next(error);
+    }
+});
 
 module.exports = router;
