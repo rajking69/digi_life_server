@@ -16,7 +16,11 @@ const app = express();
 
 app.use(
     cors({
-        origin: process.env.CLIENT_ORIGIN,
+        origin: [
+            process.env.CLIENT_ORIGIN,
+            "http://localhost:3000",
+            "https://digi-life-client.vercel.app"
+        ].filter(Boolean),
         credentials: true,
     })
 );

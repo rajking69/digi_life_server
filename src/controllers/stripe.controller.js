@@ -23,8 +23,8 @@ const createCheckoutSession = async (req, res) => {
                 },
             ],
             mode: "payment",
-            success_url: `${process.env.CLIENT_ORIGIN}/premium?success=true&session_id={CHECKOUT_SESSION_ID}`,
-            cancel_url: `${process.env.CLIENT_ORIGIN}/premium?canceled=true`,
+            success_url: `${process.env.CLIENT_ORIGIN || 'https://digi-life-client.vercel.app'}/payment/success?session_id={CHECKOUT_SESSION_ID}`,
+            cancel_url: `${process.env.CLIENT_ORIGIN || 'https://digi-life-client.vercel.app'}/payment/cancel`,
             metadata: {
                 userId: userId,
             },

@@ -12,7 +12,11 @@ const getAuth = async () => {
             emailAndPassword: {
                 enabled: true,
             },
-            trustedOrigins: [process.env.CLIENT_ORIGIN || "http://localhost:3000"],
+            trustedOrigins: [
+                process.env.CLIENT_ORIGIN,
+                "http://localhost:3000",
+                "https://digi-life-client.vercel.app"
+            ].filter(Boolean),
             socialProviders: {
                 ...(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET ? {
                     google: {
