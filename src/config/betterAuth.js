@@ -26,10 +26,9 @@ const getAuth = async () => {
                     }
                 } : {})
             },
-            advanced: {
-                crossSubDomainCookies: {
-                    enabled: true
-                }
+            cookie: {
+                secure: process.env.NODE_ENV === "production",
+                sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
             },
             databaseHooks: {
                 user: {
