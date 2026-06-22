@@ -8,4 +8,9 @@ const client = new MongoClient(process.env.MONGODB_URI, {
     },
 });
 
-module.exports = client;
+// Eagerly connect to MongoDB (essential for serverless environments)
+client.connect()
+    .then(() => console.log("✅ MongoDB connected successfully"))
+    .catch((err) => console.error("❌ MongoDB connection error:", err));
+
+module.exports = client;
